@@ -1,0 +1,105 @@
+/* Contact Section */
+// .contact-section {
+//     padding: 50px 0;
+//     background-color: #fff;
+//   }
+  
+//   .contact-form {
+//     max-width: 500px;
+//     margin: 0 auto;
+//     display: flex;
+//     flex-direction: column;
+//   }
+  
+//   .contact-form input, .contact-form textarea {
+//     margin-bottom: 20px;
+//     padding: 15px;
+//     border: 1px solid #ccc;
+//     border-radius: 5px;
+//   }
+  
+  // .contact-form button {
+  //   padding: 10px 20px;
+  //   background-color: #5a3fba;
+  //   color: #fff;
+  //   border: none;
+  //   border-radius: 5px;
+  // }
+
+  
+  // body {
+  //   font-family: 'Arial', sans-serif;
+  //   background-color: #f0d8a8; /* Background color similar to the design */
+  // }
+  
+  .contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #5c3d2e; /* Heading color */
+  }
+  
+  .social-icons {
+    margin-bottom: 30px;
+  }
+  
+  .social-link {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #141413; /* Icon color */
+    transition: color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    color: #141413; /* Change color on hover */
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #161616;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #b68c69; /* Placeholder color */
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .btn-primary {
+    background-color: #f1c984; /* Button background color */
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #5a3fba;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  

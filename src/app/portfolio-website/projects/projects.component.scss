@@ -1,0 +1,190 @@
+/* Projects Section */
+// .projects-section {
+//     background-color: #f1f1f1;
+//     padding: 50px 0;
+//   }
+  
+//   .projects-grid {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     gap: 20px;
+//   }
+  
+//   .project-item {
+//     padding: 20px;
+//     background-color: #fff;
+//     border-radius: 10px;
+//     text-align: center;
+//   }
+
+// Gradient colors for the cards
+
+
+// .custom-card {
+//   border-radius: 20px;
+//   color: white;
+//   padding: 20px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   transition: all 0.3s ease;
+//   height: 100%;
+
+//   // Inner content layout
+//   .card-content {
+//     display: flex;
+//     align-items: center;
+
+//     // Image styling (instead of icon)
+//     .icon img {
+//       width: 80px;   // Adjust image width
+//       height: auto;  // Maintain aspect ratio
+//       margin-right: 20px;
+//     }
+
+//     // Text section
+//     .text {
+//       h4 {
+//         font-size: 1.5rem;
+//         margin-bottom: 10px;
+//       }
+
+//       p {
+//         font-size: 1rem;
+//         opacity: 0.85;
+//       }
+//     }
+//   }
+
+//   // Hover effect
+//   &:hover {
+//     transform: translateY(-10px);
+//     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+//   }
+// }
+
+// h2 {
+//   text-align: center;
+//   font-size: 2.5rem;
+//   margin-bottom: 40px;
+//   color: #333;
+// }
+
+// Specific gradient background for each card
+// .green-gradient {
+//   background: linear-gradient(135deg, #48ff98, #0dcaf0);
+// }
+
+// .orange-gradient {
+//   background: linear-gradient(135deg, #ff8a00, #ff408c);
+// }
+
+// .pink-gradient {
+//   background: linear-gradient(135deg, #fa41ce, #ff64a4);
+// }
+
+// .blue-gradient {
+//   background: linear-gradient(135deg, #0dcaf0, #3f79ff);
+// }
+
+// .custom-card {
+//   background-color: #fff;
+//   border-radius: 10px;
+//   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+//   padding: 20px;
+//   transition: transform 0.3s ease-in-out;
+  
+//   &:hover {
+//     transform: scale(1.05);
+//   }
+
+//   .project-image {
+//     img {
+//       max-width: 250px;
+//       border-radius: 10px;
+//       transition: transform 0.3s ease;
+      
+//       &:hover {
+//         transform: scale(1.1);
+//       }
+//     }
+//   }
+
+//   .project-text {
+//     h4 {
+//       font-size: 1.5rem;
+//       margin-bottom: 10px;
+//       color: #333;
+//     }
+
+//     p {
+//       font-size: 1rem;
+//       color: #555;
+//     }
+//   }
+// }
+
+// Custom Gradient Colors for Projects
+// .green-gradient {
+//   background: linear-gradient(45deg, #43e97b, #38f9d7);
+// }
+
+// .orange-gradient {
+//   background: linear-gradient(45deg, #ff9966, #ff5e62);
+// }
+
+// .pink-gradient {
+//   background: linear-gradient(45deg, #ff6fd8, #3813a0);
+// }
+
+// .blue-gradient {
+//   background: linear-gradient(45deg, #36d1dc, #5b86e5);
+// }
+
+.project-card {
+  border: none;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  
+  &:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+    background-color: #fff;
+    
+    .card-date {
+      font-size: 0.8rem;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    
+    .card-title {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    .card-text {
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+    
+    .card-link {
+      font-size: 0.85rem;
+      color: #007bff;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+
+
+// .signature-font {
+//   font-family: 'Dancing Script', cursive;
+//   font-size: 32px; /* You can adjust the size based on your design */
+//   font-weight: 700;
+//   color: #9661ff; /* Use your desired color */
+//   margin-right: 8px; /* Add space between "KM" and "Creations" */
+//   display: inline-block;
+//   vertical-align: middle; /* Aligns with the text */
+// }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  font-family: 'Arial',sans-serif;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: #333;
+  
+  
+}
+
+
+
+/* Logo Styling with Shine Effect */
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  background: linear-gradient(90deg, #ffffff, #ffffff); /* Initial gradient for "K" */
+  background-clip: text;
+  color: transparent;
+  animation: shine 2s linear infinite;
+}
+
+/* Shining effect for "T" (blue letter) */
+.logo span {
+  background: linear-gradient(90deg, #3498db, #3498db); /* Blue gradient for "T" */
+  background-clip: text;
+  color: transparent;
+  animation: shine 2s linear infinite;
+}
+
+
+/* Keyframes for Shining Effect */
+@keyframes shine {
+  0% {
+      background-position: -200%;
+  }
+  100% {
+      background-position: 200%;
+  }
+}
+
+.logo, .logo span {
+  background-size: 200% auto;
+}
+.logo span {
+  color:linear-gradient(90deg, #3498db, #3498db);; /* Color for the span inside the logo */
+}
+nav ul {
+  display: flex;
+  list-style-type:none ;
+}
+nav ul li {
+  margin-left: 30px;
+}
+/*Link inside nav*/
+nav ul li a{
+  text-decoration: none;
+  font-size: 1rem;
+  color:white;
+  transition:color 0.3s ease;
+}
+
+/*Hover effect to change link color */
+nav ul li a:hover{
+  color:yellow;
+
+}
+
+
+
+
+/*Responsive styling*/
+@media (max-width:991.98px)
+{
+  .navbar-nav{
+      text-align: center;
+  }
+  .navbar-nav .nav-item{
+      margin:0.5rem 0;
+  }
+}
+
+.container {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Space out children elements */
+  align-items: center; /* Vertically align items in the center */
+  max-width: 1200px; /* Maximum width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Horizontal padding for the container */
+}
+
+.logo {
+  font-size: 24px; /* Larger font size for the logo */
+  font-weight: bold; /* Make the logo bold */
+}
+
+
+
+.nav-links {
+  list-style-type: none; /* Remove bullet points */
+  display: flex; /* Use Flexbox for the list */
+  gap: 20px; /* Space between links */
+}
+
+
+.nav-links a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* White text color for links */
+  padding: 10px 15px; /* Padding around the links */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.nav-links a:hover {
+  background-color: #ff5733; /* Background color on hover */
+  border-radius: 5px; /* Rounded corners for hover effect */
+}
